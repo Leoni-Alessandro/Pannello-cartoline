@@ -1,0 +1,131 @@
+/*SETUP*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*STILE LAVAGNA PROMEMORIA*/
+.container{
+    background: url('../img/imagessugh.jpg');
+    background-size: cover;
+    border: 20px solid #ac7f62;
+    margin: auto;
+    padding: 8px;
+    height: 900px;
+    width: 1100px;
+    position: relative;
+}
+
+
+/*STILE CARTOLINE*/
+.pic-1{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    box-shadow: 3px 3px 1px black;
+    background-image: url(https://picsum.photos/300/300);
+}
+
+.pic-1:hover{
+    box-shadow: 12px 12px 9px black;
+    cursor: pointer;
+}
+
+.pic-2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 450px;
+    left: 415px;
+    box-shadow: 3px 3px 1px black;
+    background-image: url(https://picsum.photos/400/300);
+}
+
+.pic-2:hover{
+    box-shadow: 12px 12px 9px black;
+    cursor: pointer;
+}
+
+.pic-3{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 645px;
+    top: 235px;
+    box-shadow: 3px 3px 1px black;
+    background-image: url(https://picsum.photos/600/300);
+}
+
+.pic-3:hover{
+    box-shadow: 12px 12px 9px black;
+    cursor: pointer;
+}
+
+.pic-4{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 467px;
+    box-shadow: 3px 3px 1px black;
+    background-image: url(https://picsum.photos/500/300);
+}
+
+.pic-4:hover{
+    box-shadow: 12px 12px 9px black;
+    cursor: pointer;
+}
+
+/*STILE POSTIT*/
+.postit-1{
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    width: 230px;
+    height: 230px;
+    background-color: yellowgreen;
+    left: 800px;
+    top: 600px;
+    box-shadow: 3px 3px 1px black;
+}
+
+.postit-1 ul{
+    list-style: none;
+}
+
+.postit-1 ul li{
+    margin-top: 8px;
+}
+
+.postit-2{
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    width: 230px;
+    height: 230px;
+    background-color: yellowgreen;
+    left: 380px;
+    top: 200px;
+    box-shadow: 3px 3px 1px black;
+}
+
+.postit-2 ul{
+    list-style: none;
+}
+
+.postit-2 ul li{
+    margin-top: 8px;
+}
+
+.postit-1:hover{
+    box-shadow: 12px 12px 9px black;
+    cursor: pointer;
+}
+
+.postit-2:hover{
+    box-shadow: 12px 12px 9px black;
+    cursor: pointer;
+}
