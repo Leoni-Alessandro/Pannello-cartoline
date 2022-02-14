@@ -8,7 +8,7 @@
 
 /*STILE LAVAGNA PROMEMORIA*/
 .container{
-    background: url('../img/imagessugh.jpg');
+    background: url('./imagessugh.jpg');
     background-size: cover;
     border: 20px solid #ac7f62;
     margin: auto;
